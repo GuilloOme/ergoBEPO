@@ -1,0 +1,66 @@
+Name            = "ErgoBEPO";
+Layout          = "Layer 1";
+Base            = "Blank";
+Version         = "0.1";
+Author          = "GuilloOme 2017";
+KLL             = "0.3c";
+Date            = "2017-03-02";
+
+# More info: http://www.keyboard-layout-editor.com/#/gists/6816623bb647407d6245ce6766018488
+
+### LEFT ROW 1 ###
+U"EQUALS"       : U"PRINTSCREEN";
+U"1"            : U"F1";
+U"2"            : U"F2";
+U"3"            : U"F3";
+U"4"            : U"F4";
+U"5"            : U"F5";
+U"ESC"          : U"F6";
+
+### LEFT ROW 2 ###
+U"Q"            : U"F7";
+U"W"            : U"F8";
+U"E"            : U"F9";
+U"R"            : U"F10";
+U"T"            : U"F11";
+U"FUNCTION1"    : U"F12";
+
+### LEFT ROW 3 ###
+U"S"            : CONS"SCANPREVIOUSTRACK";
+U"D"            : CONS"PAUSEPLAY";
+U"F"            : CONS"SCANNEXTTRACK";
+U"G"            : CONS"VOLUMEUP";
+
+### LEFT ROW 4 ###
+U"B"            : CONS"VOLUMEDOWN";
+U"FUNCTION2"    : CONS"MUTE";
+
+### LEFT ROW 5 ##
+U"BACKTICK"     : U"LCTRL" + U"C"; # Ctrl+X: Cut
+U"FUNCTION4"    : U"LCTRL" + U"K"; # Ctrl+S: Save
+
+### LEFT THUMB BLOCK ###
+U"HOME"         : U"FUN2"; # 
+
+### RIGHT ROW 1 ###
+
+### RIGHT ROW 2 ###
+U"U"            : U"HOME"; # V
+U"I"            : U"UP"; # D
+U"O"            : U"END"; # L
+
+### RIGHT ROW 3 ###
+U"J"            : U"LEFT"; # T
+U"K"            : U"DOWN"; # S
+U"L"            : U"RIGHT"; # R
+
+### RIGHT ROW 4 ###
+
+### RIGHT ROW 5 ###
+U"DOWN"         : U"HOME";
+U"UP"           : U"PAGEUP";
+U"RIGHT"        : U"PAGEDOWN";
+U"RGUI"	        : U"END";
+
+### RIGHT THUMB BLOCK ###
+U"PAGEUP"       : U"FUN2"; # 

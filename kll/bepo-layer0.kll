@@ -1,0 +1,110 @@
+Name            = "ErgoBEPO";
+Layout          = "Default";
+Base            = "Blank";
+Version         = "0.1";
+Author          = "GuilloOme 2017";
+KLL             = "0.3c";
+Date            = "2017-03-02";
+
+# More info: http://www.keyboard-layout-editor.com/#/gists/6816623bb647407d6245ce6766018488
+
+### LEFT ROW 1 ###
+U"EQUALS"       : U"ESCAPE"; # ESC
+# U"1"            : U"1"; # 
+# U"2"            : U"2"; # 
+# U"3"            : U"3"; # 
+# U"4"            : U"4"; # 
+# U"5"            : U"5"; # 
+U"ESC"          : U"BACKTICK"; # $
+
+### LEFT ROW 2 ###
+U"BACKSLASH"    : U"TAB";  # 
+# U"Q"            : U"Q"; # B
+# U"W"            : U"W"; # É
+# U"E"            : U"E"; # P
+# U"R"            : U"R"; # O
+# U"T"            : U"T"; # È
+U"FUNCTION1"    : U"RBRACE"; # W
+
+### LEFT ROW 3 ###
+U"TAB"          : U"FUN1"; # function 1
+# U"A"            : U"A"; # A
+# U"S"            : U"S"; # U
+# U"D"            : U"D"; # I
+# U"F"            : U"F"; # E
+# U"G"            : U"G"; # ,
+
+### LEFT ROW 4 ###
+U"LSHIFT"       : U"LSHIFT"; # 
+# U"Z"            : U"Z"; # À
+# U"X"            : U"X"; # Y
+# U"C"            : U"C"; # X
+# U"V"            : U"V"; # .
+# U"B"            : U"B"; # K
+U"FUNCTION2"    : U"BACKSLASH"; # Ç
+
+### LEFT ROW 5 ###
+U"LGUI"         : U"LCTRL"; # 
+U"BACKTICK"     : U"LCTRL" + U"H"; # Ctrl+C: Copy
+U"FUNCTION3"    : U"LCTRL" + U"U"; # Ctrl+V: Past
+U"FUNCTION4"    : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
+U"FUNCTION5"    : U"LALT"; # 
+
+### LEFT THUMB BLOCK ###
+U"LCTRL"        : None; #
+U"LALT"         : U"NEXT LAYER"; #
+U"HOME"         : None; #
+U"BACKSPACE"    : U"SPACE"; # 
+U"DELETE"       : U"FUN1"; # 
+U"END"          : U"LGUI"; # 
+
+### RIGHT ROW 1 ###
+U"FUNCTION6"    : U"EQUALS"; # %
+# U"6"            : U"6"; # 
+# U"7"            : U"7"; # 
+# U"8"            : U"8"; # 
+# U"9"            : U"9"; # 
+# U"0"            : U"0"; # 
+# U"MINUS"        : U"MINUS"; # =
+
+### RIGHT ROW 2 ###
+U"LBRACE"       : U"BACKSPACE"; # 
+# U"Y"            : U"Y"; # !
+# U"U"            : U"U"; # V
+# U"I"            : U"I"; # D
+# U"O"            : U"O"; # L
+# U"P"            : U"P"; # J
+U"RBRACE"       : U"LBRACE"; # Z
+
+### RIGHT ROW 3 ###
+# U"H"            : U"H"; # C
+# U"J"            : U"J"; # T
+# U"K"            : U"K"; # S
+# U"L"            : U"L"; # R
+# U"SEMICOLON"    : U"SEMICOLON"; # N
+# U"QUOTE"        : U"QUOTE"; # M
+
+### RIGHT ROW 4 ###
+U"FUNCTION7"    : U"DELETE"; # 
+# U"N"            : U"N"; # ?
+# U"M"            : U"M"; # Q
+# U"COMMA"        : U"COMMA"; # G
+# U"PERIOD"       : U"PERIOD"; # H
+# U"SLASH"        : U"SLASH"; # F
+#U"RSHIFT"       : U"RSHIFT"; # 
+
+### RIGHT ROW 5 ###
+U"LEFT"         : U"RALT"; # 
+U"DOWN"         : U"fun1"; #
+U"UP"           : None; #
+U"RIGHT"        : None; #
+U"RGUI"         : None; #
+
+### RIGHT THUMB BLOCK ###
+U"RALT"         : U"NEXT LAYER"; #
+U"RCTRL"        : None; #
+U"PAGEUP"       : None; #
+U"PAGEDOWN"     : U"CAPSLOCK"; #
+# U"ENTER"        : U"ENTER"; # 
+# U"SPACE"        : U"SPACE"; # 
+
