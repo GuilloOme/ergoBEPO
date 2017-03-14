@@ -36,7 +36,8 @@ DefaultMap="bepo-layer0 bepo-lcd"
 #       PartialMaps[3]="layer3"
 PartialMaps[1]="bepo-layer1 bepo-lcd"
 PartialMaps[2]="bepo-layer2 bepo-lcd"
-#PartialMaps[2]="iced_numpad"
+PartialMaps[3]="bepo-lcd"
+PartialMaps[4]="bepo-layer7 bepo-lcd"
 
 
 ##########################
