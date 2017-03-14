@@ -1,5 +1,5 @@
 Name            = "ErgoBEPO";
-Layout          = "Layer 2";
+Layout          = "Layer 7";
 Base            = "Blank";
 Version         = "0.1";
 Author          = "GuilloOme 2017";
@@ -9,7 +9,7 @@ Date            = "2017-03-02";
 # More info: http://www.keyboard-layout-editor.com/#/gists/6816623bb647407d6245ce6766018488
 
 ### LEFT ROW 1 ###
-#U"EQUALS"       : flashMode();
+U"EQUALS"       : flashMode();
 
 ### LEFT ROW 2 ###
 
@@ -20,7 +20,7 @@ Date            = "2017-03-02";
 ### LEFT ROW 5 ##
 
 ### RIGHT ROW 1 ###
-#U"MINUS"        : flashMode();
+U"MINUS"        : flashMode();
 
 ### RIGHT ROW 2 ###
 

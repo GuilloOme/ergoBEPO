@@ -91,20 +91,20 @@ U"FUNCTION7"    : U"DELETE"; #
 # U"COMMA"        : U"COMMA"; # G
 # U"PERIOD"       : U"PERIOD"; # H
 # U"SLASH"        : U"SLASH"; # F
-#U"RSHIFT"       : U"RSHIFT"; # 
+# U"RSHIFT"       : U"RSHIFT"; #
 
 ### RIGHT ROW 5 ###
 U"LEFT"         : U"RALT"; # 
-U"DOWN"         : U"fun1"; #
+U"DOWN"         : None; #
 U"UP"           : None; #
 U"RIGHT"        : None; #
-U"RGUI"         : None; #
+U"RGUI"         : U"Enter"; #
 
 ### RIGHT THUMB BLOCK ###
 U"RALT"         : U"NEXT LAYER"; #
 U"RCTRL"        : None; #
 U"PAGEUP"       : None; #
 U"PAGEDOWN"     : U"CAPSLOCK"; #
-# U"ENTER"        : U"ENTER"; # 
+U"ENTER"        : U"fun1"; #
 # U"SPACE"        : U"SPACE"; # 
 
