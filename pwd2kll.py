@@ -12,10 +12,21 @@ KEY_SET = [
 
 STROKE_FORMAT = 'U"{}"'
 
+TRIGGER_SET = ["W", "E", "R",
+               "S", "D", "F",
+               "X", "C", "V"
+               ]
+
 
 def generate_key_stroke(length):
     seed = [randrange(len(KEY_SET)) for _ in range(length)]
-    return " + ".join([STROKE_FORMAT.format(KEY_SET[i]) for i in seed])
+    stroke = []
+    for i in seed:
+        if randrange(2):
+            stroke.append(STROKE_FORMAT.format(KEY_SET[i]))
+        else:
+            stroke.append(" + ".join([STROKE_FORMAT.format("LShift"), STROKE_FORMAT.format(KEY_SET[i])]))
+    return ", ".join(stroke)
 
 
 if __name__ == "__main__":
@@ -25,14 +36,9 @@ if __name__ == "__main__":
                         required=False,
                         default=8,
                         help="length of the keystrokes")
-    parser.add_argument("-n", "--number",
-                        type=int,
-                        required=False,
-                        default=1,
-                        help="number of keystrokes")
+
     args = parser.parse_args()
     password_length = args.length
-    number = args.number
 
-    for _ in range(number):
-        print(": "+generate_key_stroke(password_length)+"; # ")
+    for t in TRIGGER_SET:
+        print(STROKE_FORMAT.format(t) + " : " + generate_key_stroke(password_length) + "; # ")

@@ -14,26 +14,26 @@ Date            = "2017-03-02";
 ### LEFT ROW 2 ###
 # U"BACKSLASH"    : U"TAB";  # 
 # U"Q"            : U"Q"; # B
-U"W"            : None; # É
-U"E"            : None; # P
-U"R"            : None; # O
+# U"W"            : None; # É
+# U"E"            : None; # P
+# U"R"            : None; # O
 # U"T"            : U"T"; # È
 # U"FUNCTION1"    : U"RBRACE"; # W
 
 ### LEFT ROW 3 ###
 # U"TAB"          : U"FUN1"; # function 1
 # U"A"            : U"A"; # A
-U"S"            : None; # U
-U"D"            : None; # I
-U"F"            : None; # E
+# U"S"            : None; # U
+# U"D"            : None; # I
+# U"F"            : None; # E
 # U"G"            : U"G"; # ,
 
 ### LEFT ROW 4 ###
 # U"LSHIFT"       : U"LSHIFT"; # 
 # U"Z"            : U"Z"; # À
-U"X"            : None; # Y
-U"C"            : None; # X
-U"V"            : None; # .
+# U"X"            : None; # Y
+# U"C"            : None; # X
+# U"V"            : None; # .
 U"B"            : U"Enter"; #
 # U"FUNCTION2"    : U"BACKSLASH"; # Ç
 
@@ -82,4 +82,3 @@ U"LEFT"         : U"P0"; #
 # U"RGUI"         : U"Enter"; #
 
 ### RIGHT THUMB BLOCK ###
-
