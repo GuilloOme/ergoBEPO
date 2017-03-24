@@ -29,20 +29,31 @@ U"FUNCTION1"    : U"F12";
 U"S"            : CONS"SCANPREVIOUSTRACK";
 U"D"            : CONS"PAUSEPLAY";
 U"F"            : CONS"SCANNEXTTRACK";
-U"G"            : CONS"VOLUMEUP";
+# U"G"            : U"LCTRL" + U"K"; # Ctrl+S: Save
 
 ### LEFT ROW 4 ###
-U"B"            : CONS"VOLUMEDOWN";
+# U"Z"            : U"LCTRL" + U"C"; # Ctrl+X: Cut
+# U"X"            : U"LCTRL" + U"H"; # Ctrl+C: Copy
+# U"C"            : U"LCTRL" + U"U"; # Ctrl+V: Past
+# U"V"            : None;
+# U"B"            : None;
 U"FUNCTION2"    : CONS"MUTE";
 
 ### LEFT ROW 5 ##
-U"BACKTICK"     : U"LCTRL" + U"C"; # Ctrl+X: Cut
-U"FUNCTION4"    : U"LCTRL" + U"K"; # Ctrl+S: Save
+#U"BACKTICK"     : None; #
+#U"FUNCTION4"    : U"FUN1"; #
 
 ### LEFT THUMB BLOCK ###
-U"HOME"         : U"FUN2"; # 
+#U"HOME"         : U"FUN2"; # 
 
 ### RIGHT ROW 1 ###
+# U"FUNCTION6"    : U"NumLock"; # %
+# U"6"            : U"6"; # 
+# U"7"            : U"7"; # 
+# U"8"            : U"8"; # 
+# U"9"            : U"9"; # 
+# U"0"            : U"0"; # 
+# U"MINUS"        : U"MINUS"; # =
 
 ### RIGHT ROW 2 ###
 U"U"            : U"HOME"; # V
@@ -57,10 +68,10 @@ U"L"            : U"RIGHT"; # R
 ### RIGHT ROW 4 ###
 
 ### RIGHT ROW 5 ###
-U"DOWN"         : U"HOME";
-U"UP"           : U"PAGEUP";
-U"RIGHT"        : U"PAGEDOWN";
-U"RGUI"	        : U"END";
+#U"DOWN"         : U"HOME";
+#U"UP"           : U"PAGEUP";
+#U"RIGHT"        : U"PAGEDOWN";
+#U"RGUI"	        : U"END";
 
 ### RIGHT THUMB BLOCK ###
-U"PAGEUP"       : U"FUN2"; # 
+#U"PAGEUP"       : U"FUN2"; # 

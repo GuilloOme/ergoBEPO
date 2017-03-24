@@ -1,0 +1,52 @@
+Name            = "ErgoBEPO";
+Layout          = "Layer 3";
+Base            = "Blank";
+Version         = "0.1";
+Author          = "GuilloOme 2017";
+KLL             = "0.3c";
+Date            = "2017-03-02";
+
+# More info: http://www.keyboard-layout-editor.com/#/gists/6816623bb647407d6245ce6766018488
+
+### LEFT ROW 1 ###
+U"EQUALS"       : flashMode();
+
+### LEFT ROW 2 ###
+
+### LEFT ROW 3 ###
+U"S"            : U"LCTRL" + U"C"; # Ctrl+X: Cut
+U"D"            : U"LCTRL" + U"H"; # Ctrl+C: Copy
+U"F"            : U"LCTRL" + U"U"; # Ctrl+V: Past
+
+### LEFT ROW 4 ###
+
+### LEFT ROW 5 ##
+
+### RIGHT ROW 1 ###
+### RIGHT ROW 1 ###
+### RIGHT ROW 1 ###
+### RIGHT ROW 1 ###
+### RIGHT ROW 1 ###
+U"MINUS"        : flashMode();
+
+### RIGHT ROW 2 ###
+#U"U"            : mouseOut( 6, 0, 0); # Scroll Left
+U"I"            : mouseOut( 0, 0, -1 ); # U"UP"
+#U"O"            : mouseOut( 7, 0, 0); # Scroll Right
+#U"P"            : mouseOut( 4, 0, 0); # Scroll Up
+
+### RIGHT ROW 3 ###
+U"J"            : mouseOut( 0, -1, 0 ); # U"LEFT";
+U"K"            : mouseOut( 0, 0, 1 ); # U"DOWN";
+U"L"            : mouseOut( 0, 1, 0 ); # U"RIGHT";
+#U"SEMICOLON"    : mouseOut( 5, 0, 0); # Scroll Down
+
+### RIGHT ROW 4 ###
+
+### RIGHT ROW 5 ###
+U"Left" : mouseOut( 3, 0, 0 );
+
+
+### RIGHT THUMB BLOCK ###
+U"Space" : mouseOut( 1, 0, 0 );
+U"Enter" : mouseOut( 2, 0, 0 );

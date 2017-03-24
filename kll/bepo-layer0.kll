@@ -11,14 +11,14 @@ Date            = "2017-03-02";
 ### LEFT ROW 1 ###
 U"EQUALS"       : U"ESCAPE"; # ESC
 # U"1"            : U"1"; # 
-# U"2"            : U"2"; # 
+# U"2"            : U"2"; #
 # U"3"            : U"3"; # 
 # U"4"            : U"4"; # 
 # U"5"            : U"5"; # 
-U"ESC"          : U"BACKTICK"; # $
+U"ESC"          :  U"EQUALS"; # %
 
 ### LEFT ROW 2 ###
-U"BACKSLASH"    : U"TAB";  # 
+U"BACKSLASH"    : U"BACKTICK"; # $
 # U"Q"            : U"Q"; # B
 # U"W"            : U"W"; # É
 # U"E"            : U"E"; # P
@@ -27,7 +27,7 @@ U"BACKSLASH"    : U"TAB";  #
 U"FUNCTION1"    : U"RBRACE"; # W
 
 ### LEFT ROW 3 ###
-U"TAB"          : U"FUN1"; # function 1
+# U"TAB"          : U"TAB"; # 
 # U"A"            : U"A"; # A
 # U"S"            : U"S"; # U
 # U"D"            : U"D"; # I
@@ -41,34 +41,34 @@ U"LSHIFT"       : U"LSHIFT"; #
 # U"C"            : U"C"; # X
 # U"V"            : U"V"; # .
 # U"B"            : U"B"; # K
-U"FUNCTION2"    : U"BACKSLASH"; # Ç
+U"FUNCTION2"    : U"LCTRL" + U"K"; # Ctrl+S: Save
 
 ### LEFT ROW 5 ###
 U"LGUI"         : U"LCTRL"; # 
-U"BACKTICK"     : U"LCTRL" + U"H"; # Ctrl+C: Copy
-U"FUNCTION3"    : U"LCTRL" + U"U"; # Ctrl+V: Past
-U"FUNCTION4"    : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
+U"BACKTICK"     : U"FUN3"; # 
+U"FUNCTION3"    : U"Lock2"; # 
+U"FUNCTION4"    : U"FUN1"; #
 U"FUNCTION5"    : U"LALT"; # 
 
 ### LEFT THUMB BLOCK ###
-U"LCTRL"        : None; #
-U"LALT"         : U"NEXT LAYER"; #
+U"LCTRL"        : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
+U"LALT"         : None; #
 U"HOME"         : None; #
 U"BACKSPACE"    : U"SPACE"; # 
-U"DELETE"       : U"FUN1"; # 
+U"DELETE"       : U"Backspace"; # 
 U"END"          : U"LGUI"; # 
 
 ### RIGHT ROW 1 ###
-U"FUNCTION6"    : U"EQUALS"; # %
+U"FUNCTION6"    :  U"MINUS"; # =
 # U"6"            : U"6"; # 
 # U"7"            : U"7"; # 
 # U"8"            : U"8"; # 
 # U"9"            : U"9"; # 
 # U"0"            : U"0"; # 
-# U"MINUS"        : U"MINUS"; # =
+U"MINUS"        : U"BACKSLASH"; # Ç
 
 ### RIGHT ROW 2 ###
-U"LBRACE"       : U"BACKSPACE"; # 
+U"LBRACE"       : U"Backspace"; #
 # U"Y"            : U"Y"; # !
 # U"U"            : U"U"; # V
 # U"I"            : U"I"; # D
@@ -95,16 +95,16 @@ U"FUNCTION7"    : U"DELETE"; #
 
 ### RIGHT ROW 5 ###
 U"LEFT"         : U"RALT"; # 
-U"DOWN"         : None; #
-U"UP"           : None; #
-U"RIGHT"        : None; #
+U"DOWN"         : U"FUN1"; #
+U"UP"           : U"Lock2"; #
+U"RIGHT"        : U"FUN3"; #
 U"RGUI"         : U"Enter"; #
 
 ### RIGHT THUMB BLOCK ###
-U"RALT"         : U"NEXT LAYER"; #
+U"RALT"         : None; #
 U"RCTRL"        : U"CAPSLOCK"; #
 U"PAGEUP"       : None; #
 U"PAGEDOWN"     : U"Enter"; #
-U"ENTER"        : U"fun1"; #
+U"ENTER"        : None; #
 # U"SPACE"        : U"SPACE"; # 
 
