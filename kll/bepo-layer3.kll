@@ -23,10 +23,6 @@ U"F"            : U"LCTRL" + U"U"; # Ctrl+V: Past
 ### LEFT ROW 5 ##
 
 ### RIGHT ROW 1 ###
-### RIGHT ROW 1 ###
-### RIGHT ROW 1 ###
-### RIGHT ROW 1 ###
-### RIGHT ROW 1 ###
 U"MINUS"        : flashMode();
 
 ### RIGHT ROW 2 ###
