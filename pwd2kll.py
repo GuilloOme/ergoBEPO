@@ -3,8 +3,9 @@ import argparse
 from random import randrange
 
 # set of valid key usable for password generation
+# (for compatibility concern, validate that all the corresponding char are present on the target layout)
 KEY_SET = [
-    "1", "4", "5", "Equals", "Minus", "6", "7", "8", "9", "0",
+    "1", "4", "5", "Equals", "6", "7", "8", "9", "0",
     "BackTick", "Q", "E", "R", "RBrace", "U", "I", "O", "P", "LBrace",
     "A", "S", "D", "F", "G", "H", "J", "K", "L", "SEMICOLON", "QUOTE",
     "X", "C", "V", "B", "N", "M", "COMMA", "PERIOD", "SLASH",

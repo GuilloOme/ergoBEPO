@@ -38,6 +38,7 @@ U"B"            : U"Enter"; #
 # U"FUNCTION2"    : U"BACKSLASH"; # Ç
 
 ### LEFT ROW 5 ##
+U"FUNCTION5"    :U"Enter"; #
 
 ### RIGHT ROW 1 ###
 U"FUNCTION6"    : U"NumLock"; # 
