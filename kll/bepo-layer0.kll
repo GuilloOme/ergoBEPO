@@ -46,7 +46,7 @@ U"FUNCTION2"    : U"LCTRL" + U"K"; # Ctrl+S: Save
 ### LEFT ROW 5 ###
 U"LGUI"         : U"LCTRL"; # 
 U"BACKTICK"     : U"FUN3"; # 
-U"FUNCTION3"    : U"Lock2"; # 
+U"FUNCTION3"    : U"Fun2"; #
 U"FUNCTION4"    : U"FUN1"; #
 U"FUNCTION5"    : U"LALT"; # 
 
@@ -96,7 +96,7 @@ U"FUNCTION7"    : U"DELETE"; #
 ### RIGHT ROW 5 ###
 U"LEFT"         : U"RALT"; # 
 U"DOWN"         : U"FUN1"; #
-U"UP"           : U"Lock2"; #
+U"UP"           : U"Fun2"; #
 U"RIGHT"        : U"FUN3"; #
 U"RGUI"         : U"Enter"; #
 
