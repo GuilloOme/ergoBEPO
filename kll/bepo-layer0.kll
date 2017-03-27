@@ -68,7 +68,7 @@ U"FUNCTION6"    :  U"MINUS"; # =
 U"MINUS"        : U"BACKSLASH"; # Ç
 
 ### RIGHT ROW 2 ###
-U"LBRACE"       : U"Backspace"; #
+U"LBRACE"       : U"Delete"; #
 # U"Y"            : U"Y"; # !
 # U"U"            : U"U"; # V
 # U"I"            : U"I"; # D
@@ -85,7 +85,7 @@ U"RBRACE"       : U"LBRACE"; # Z
 # U"QUOTE"        : U"QUOTE"; # M
 
 ### RIGHT ROW 4 ###
-U"FUNCTION7"    : U"DELETE"; # 
+U"FUNCTION7"    : None; #
 # U"N"            : U"N"; # ?
 # U"M"            : U"M"; # Q
 # U"COMMA"        : U"COMMA"; # G
@@ -105,6 +105,6 @@ U"RALT"         : None; #
 U"RCTRL"        : U"CAPSLOCK"; #
 U"PAGEUP"       : None; #
 U"PAGEDOWN"     : U"Enter"; #
-U"ENTER"        : None; #
+U"ENTER"        : U"Backspace"; #
 # U"SPACE"        : U"SPACE"; # 
 
