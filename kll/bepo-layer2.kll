@@ -34,11 +34,11 @@ Date            = "2017-03-02";
 # U"X"            : None; # Y
 # U"C"            : None; # X
 # U"V"            : None; # .
-U"B"            : U"Enter"; #
+U"B"            : U"Enter", layerLock( 2 ) + LCDLayerDisplay(); #
 # U"FUNCTION2"    : U"BACKSLASH"; # Ç
 
 ### LEFT ROW 5 ##
-U"FUNCTION5"    :U"Enter"; #
+U"FUNCTION5"    :U"Enter", layerLock( 2 ) + LCDLayerDisplay(); #
 
 ### RIGHT ROW 1 ###
 U"FUNCTION6"    : U"NumLock"; # 
