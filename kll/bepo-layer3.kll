@@ -14,9 +14,9 @@ U"EQUALS"       : flashMode();
 ### LEFT ROW 2 ###
 
 ### LEFT ROW 3 ###
-U"S"            : U"LCTRL" + U"C"; # Ctrl+X: Cut
-U"D"            : U"LCTRL" + U"H"; # Ctrl+C: Copy
-U"F"            : U"LCTRL" + U"U"; # Ctrl+V: Past
+U"S"            : CONS"SCANPREVIOUSTRACK";
+U"D"            : CONS"PAUSEPLAY";
+U"F"            : CONS"SCANNEXTTRACK";
 
 ### LEFT ROW 4 ###
 

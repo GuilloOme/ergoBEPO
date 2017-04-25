@@ -41,21 +41,21 @@ U"LSHIFT"       : U"LSHIFT"; #
 # U"C"            : U"C"; # X
 # U"V"            : U"V"; # .
 # U"B"            : U"B"; # K
-U"FUNCTION2"    : U"LCTRL" + U"K"; # Ctrl+S: Save
+U"FUNCTION2"    : None; #
 
 ### LEFT ROW 5 ###
 U"LGUI"         : U"LCTRL"; # 
 U"BACKTICK"     : U"FUN3"; # 
-U"FUNCTION3"    : U"Lock2"; #
-U"FUNCTION4"    : U"FUN1"; #
+U"FUNCTION3"    : None; #
+U"FUNCTION4"    : None; #
 U"FUNCTION5"    : U"LALT"; # 
 
 ### LEFT THUMB BLOCK ###
-U"LCTRL"        : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
-U"LALT"         : None; #
+U"LCTRL"        : None; #
+U"LALT"         : U"Lock2"; #
 U"HOME"         : None; #
 U"BACKSPACE"    : U"SPACE"; # 
-U"DELETE"       : U"Backspace"; # 
+U"DELETE"       : U"fun1"; #
 U"END"          : U"LGUI"; # 
 
 ### RIGHT ROW 1 ###
@@ -85,7 +85,7 @@ U"RBRACE"       : U"LBRACE"; # Z
 # U"QUOTE"        : U"QUOTE"; # M
 
 ### RIGHT ROW 4 ###
-U"FUNCTION7"    : None; #
+U"FUNCTION7"    : U"Backspace"; #
 # U"N"            : U"N"; # ?
 # U"M"            : U"M"; # Q
 # U"COMMA"        : U"COMMA"; # G
@@ -95,9 +95,9 @@ U"FUNCTION7"    : None; #
 
 ### RIGHT ROW 5 ###
 U"LEFT"         : U"RALT"; # 
-U"DOWN"         : U"FUN1"; #
-U"UP"           : U"lock2"; #
-U"RIGHT"        : U"FUN3"; #
+U"DOWN"         : None; #
+U"UP"           : None; #
+U"RIGHT"        : U"fun3"; #
 U"RGUI"         : U"Enter"; #
 
 ### RIGHT THUMB BLOCK ###
@@ -105,6 +105,6 @@ U"RALT"         : None; #
 U"RCTRL"        : U"CAPSLOCK"; #
 U"PAGEUP"       : None; #
 U"PAGEDOWN"     : U"Enter"; #
-U"ENTER"        : U"Backspace"; #
+U"ENTER"        : U"fun1"; #
 # U"SPACE"        : U"SPACE"; # 
 
