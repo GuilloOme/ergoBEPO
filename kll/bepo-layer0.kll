@@ -101,7 +101,7 @@ U"RIGHT"        : U"fun3"; #
 U"RGUI"         : U"Enter"; #
 
 ### RIGHT THUMB BLOCK ###
-U"RALT"         : None; #
+U"RALT"         : U"Lock2"; #
 U"RCTRL"        : U"CAPSLOCK"; #
 U"PAGEUP"       : None; #
 U"PAGEDOWN"     : U"Enter"; #
