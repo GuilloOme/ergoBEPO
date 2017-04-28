@@ -53,10 +53,10 @@ U"FUNCTION5"    : U"LALT"; #
 ### LEFT THUMB BLOCK ###
 U"LCTRL"        : None; #
 U"LALT"         : U"Lock2"; #
-U"HOME"         : None; #
+U"HOME"         : U"LGUI"; #
 U"BACKSPACE"    : U"SPACE"; # 
 U"DELETE"       : U"fun1"; #
-U"END"          : U"LGUI"; # 
+U"END"          : U"Enter"; #
 
 ### RIGHT ROW 1 ###
 U"FUNCTION6"    :  U"MINUS"; # =
