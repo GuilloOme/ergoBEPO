@@ -26,13 +26,15 @@ U"T"            : U"F11";
 U"FUNCTION1"    : U"F12";
 
 ### LEFT ROW 3 ###
-U"S"            : U"LCTRL" + U"C"; # Ctrl+X: Cut
-U"D"            : U"LCTRL" + U"H"; # Ctrl+C: Copy
-U"F"            : U"LCTRL" + U"U"; # Ctrl+V: Past
+U"A"            : U"LCTRL" + U"A"; # Ctrl+A: Select All
+U"D"            : U"LCTRL" + U"SLASH"; # Ctrl+F: Search
+U"F"            : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
+U"G"            :U"LCTRL" + U"K"; # Ctrl+S: Save
 
 ### LEFT ROW 4 ###
-U"C"            :U"LCTRL" + U"K"; # Ctrl+S: Save
-U"V"            : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
+U"X"            : U"LCTRL" + U"C"; # Ctrl+X: Cut
+U"C"            : U"LCTRL" + U"H"; # Ctrl+C: Copy
+U"V"            : U"LCTRL" + U"U"; # Ctrl+V: Past
 
 ### LEFT ROW 5 ##
 #U"BACKTICK"     : None; #

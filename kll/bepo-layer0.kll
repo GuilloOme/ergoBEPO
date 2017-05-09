@@ -24,7 +24,7 @@ U"BACKSLASH"    : U"BACKTICK"; # $
 # U"E"            : U"E"; # P
 # U"R"            : U"R"; # O
 # U"T"            : U"T"; # È
-U"FUNCTION1"    : U"RBRACE"; # W
+U"FUNCTION1"    : U"Backspace"; #
 
 ### LEFT ROW 3 ###
 # U"TAB"          : U"TAB"; # 
@@ -41,7 +41,7 @@ U"LSHIFT"       : U"LSHIFT"; #
 # U"C"            : U"C"; # X
 # U"V"            : U"V"; # .
 # U"B"            : U"B"; # K
-U"FUNCTION2"    : None; #
+U"FUNCTION2"    : U"BACKSLASH"; # Ç
 
 ### LEFT ROW 5 ###
 U"LGUI"         : U"LCTRL"; # 
@@ -65,10 +65,10 @@ U"FUNCTION6"    :  U"MINUS"; # =
 # U"8"            : U"8"; # 
 # U"9"            : U"9"; # 
 # U"0"            : U"0"; # 
-U"MINUS"        : U"BACKSLASH"; # Ç
+U"MINUS"        : U"RBRACE"; # W
 
 ### RIGHT ROW 2 ###
-U"LBRACE"       : U"Delete"; #
+U"LBRACE"       : U"Backspace"; #
 # U"Y"            : U"Y"; # !
 # U"U"            : U"U"; # V
 # U"I"            : U"I"; # D
@@ -85,7 +85,7 @@ U"RBRACE"       : U"LBRACE"; # Z
 # U"QUOTE"        : U"QUOTE"; # M
 
 ### RIGHT ROW 4 ###
-U"FUNCTION7"    : U"Backspace"; #
+U"FUNCTION7"    : U"Delete"; #
 # U"N"            : U"N"; # ?
 # U"M"            : U"M"; # Q
 # U"COMMA"        : U"COMMA"; # G
