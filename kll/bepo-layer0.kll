@@ -47,13 +47,13 @@ U"FUNCTION2"    : U"BACKSLASH"; # Ç
 U"LGUI"         : U"LCTRL"; # 
 U"BACKTICK"     : U"FUN3"; # 
 U"FUNCTION3"    : None; #
-U"FUNCTION4"    : None; #
+U"FUNCTION4"    : U"LGUI"; #
 U"FUNCTION5"    : U"LALT"; # 
 
 ### LEFT THUMB BLOCK ###
-U"LCTRL"        : None; #
+U"LCTRL"        : U"CAPSLOCK"; #
 U"LALT"         : U"Lock2"; #
-U"HOME"         : U"LGUI"; #
+U"HOME"         : None; #
 U"BACKSPACE"    : U"SPACE"; # 
 U"DELETE"       : U"fun1"; #
 U"END"          : U"Enter"; #
@@ -95,7 +95,7 @@ U"FUNCTION7"    : U"Delete"; #
 
 ### RIGHT ROW 5 ###
 U"LEFT"         : U"RALT"; # 
-U"DOWN"         : None; #
+U"DOWN"         : U"LGUI"; #
 U"UP"           : None; #
 U"RIGHT"        : U"fun3"; #
 U"RGUI"         : U"Enter"; #
