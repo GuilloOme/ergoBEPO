@@ -32,6 +32,7 @@ U"F"            : U"LCTRL" + U"LBRACE"; # Ctrl+Z: Cancel
 U"G"            :U"LCTRL" + U"K"; # Ctrl+S: Save
 
 ### LEFT ROW 4 ###
+U"Z"            : CONS0x0B1, U"LGUI" + U"Z"; # Pause media then Super+À (lock screen)
 U"X"            : U"LCTRL" + U"C"; # Ctrl+X: Cut
 U"C"            : U"LCTRL" + U"H"; # Ctrl+C: Copy
 U"V"            : U"LCTRL" + U"U"; # Ctrl+V: Past
